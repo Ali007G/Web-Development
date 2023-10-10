@@ -1,7 +1,11 @@
 p {
-    color: red;
+    color: rgb(71, 66, 66);
     background-color: burlywood;
     font-size: 20px;
+}
+
+#secondptag {
+    color: rgb(255, 106, 0);
 }
 
 table,th,td {
