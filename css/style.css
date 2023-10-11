@@ -1,0 +1,11 @@
+/* 
+css syntax 
+selector{
+    property: value;
+}
+*/
+
+body{
+    background-color: lightblue;
+    border: 2px solid black;
+}
