@@ -1,0 +1,21 @@
+body{
+    background: url(/img/image2.jpg);
+    background-size: 1300px 750px;
+    background-repeat: no-repeat;
+    /*background-repeat: x; */
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+}
+
+/* .header{
+    border: 2px solid black;
+} */
+
+.header a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
