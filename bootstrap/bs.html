@@ -16,6 +16,29 @@
             border: 2px solid blue;
             padding: 10px;
         }
+
+        .col{
+            border: 2px solid black;
+        }
+
+        .col-1{
+            border: 2px solid orange;
+        }
+        .col-3{
+            border: 2px solid purple;
+        }
+        .col-4{
+            border: 2px solid darkred;
+        }
+        .col-5{
+            border: 2px solid rgb(39, 180, 34);
+        }
+        .col-7{
+            border: 2px solid rgb(247, 54, 144);
+        }
+        .col-8{
+            border: 2px solid rgb(201, 212, 42);
+        }
     </style>
 </head>
 
@@ -181,7 +204,46 @@
             </tbody>
         </table>
     </div>
-
+<hr>
+    <!-- it will take one column size amongst twele -->
+    <div class="container">
+        <div class="col-1">
+            this is 1st column takes 1 column size
+        </div>
+    </div>
+<hr>
+    <!-- it will take three column size amongst twele -->
+    <div class="container">
+        <div class="col-3">
+            this is 1st column but taked 3 column size
+        </div>
+    </div>
+<hr>
+    <div class="container">
+        <div class="row">
+            <!-- p means padding, value (0-5), 1=16px -->
+            <div class="col-5 p-3">
+                this is first column
+            </div>
+        <div class="col-7 p-3">
+            this is second column
+        </div>
+        </div>
+    </div>
+<hr>
+        <div class="container">
+            <div class="row">
+                <!-- for responsive <div class="col-8 col-sm-12 col-md-12 p-3"> -->
+                <div class="col-8 p-3">
+                    this is first column <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, temporibus hic reiciendis repellat repellendus, error commodi quod possimus esse fuga ipsum unde consequatur, architecto obcaecati assumenda distinctio quam nemo recusandae amet. Minus quasi a est, dolores amet quod voluptatum ullam soluta nobis nemo perspiciatis nesciunt quidem harum maiores vitae iure!
+                </div>
+            <div class="col-4 p-3">
+                this is second column
+            </div>
+            </div>
+        </div>
+<hr>
     </div>
 </body>
 
