@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+}
+
+p{
+    color: brown;
+}
+
+h1{
+
+}
+
+h2{
+    color: red;
+}
+/* when id define then we use hash # */
+#secondparagraph{ 
+    color: blue;
+}
+
+/* when class use, we have to use dot(.) */
+.yellow{
+    border: 2px solid rebeccapurple;
+}
+
+.orange{
+    border: 2px solid whitesmoke;
+}
+
+/* when we want to group */
+h1,h2{
+    color: brown;
+}
