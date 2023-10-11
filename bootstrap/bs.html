@@ -1,64 +1,188 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        .badge{
+        .badge {
             background-color: red;
         }
+
+        .container {
+            border: 2px solid blue;
+            padding: 10px;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="spinner-border text-danger m-5" role="status">
         <span class="visually-hidden">Loading...</span>
-      </div>
+    </div>
 
-      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar" style="width: 25%"></div>
-      </div>
-<hr>
-      <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    </div>
+    <hr>
+    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar w-75"></div>
-      </div>
-<hr>
-      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+    </div>
+    <hr>
+    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar" style="width: 25%">C++ 25%</div>
-      </div>
-<hr>
-      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+    </div>
+    <hr>
+    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar bg-success" style="width: 25%">25%</div>
-      </div>
-<hr>
-      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+    </div>
+    <hr>
+    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
-      </div>
-<hr>
-      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    </div>
+    <hr>
+    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
-      </div>
-      <hr>
-      <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+    </div>
+    <hr>
+    <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar bg-danger" style="width: 100%">100%</div>
-      </div>
-<hr>
-      <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    </div>
+    <hr>
+    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
-      </div>
-      
-<hr>
-      <!-- this is button -->
-      <div class="container">
+    </div>
+
+    <hr>
+    <!-- this is button -->
+    <div class="container">
         <button class="btn btn-outline-primary">This is simple button</button>
-      </div>
-<hr>
-      <!-- this is badge -->
-      <div class="container">
+    </div>
+    <hr>
+    <!-- this is badge -->
+    <div class="container">
         <h1>this is heading and badge <span class="badge badge-danger">9</span></h1>
-      </div>
+    </div>
+    <hr>
+    <!-- this is alert -->
+    <div class="container">
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit
+                longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <hr>
+            <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+        </div>
+    </div>
+    <hr>
 
+    <!-- this is image with text -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="/img/image2.jpg" class="img-fluid" alt="this is laptop picture">
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda doloremque ipsa mollitia
+                    voluptatibus tempora ipsum inventore magnam quisquam, amet cupiditate sapiente omnis aperiam rerum,
+                    fugit nulla et? Qui porro aspernatur ad eaque nulla dolore eligendi, iure cumque mollitia tenetur
+                    error atque, aperiam molestias asperiores, quasi voluptate repudiandae illo aliquam expedita.Lorem
+                    ipsum, dolor sit amet consectetur adipisicing elit. Omnis doloribus laborum odio debitis officia,
+                    dolor excepturi maiores! Quam, quos soluta unde dolores praesentium architecto? Ipsam quisquam error
+                    accusamus! Enim sed quisquam magni. Reprehenderit fuga natus sapiente, est blanditiis hic nobis
+                    nulla ratione. Cupiditate nulla ex, perspiciatis ullam veritatis aliquam facere. Lorem ipsum dolor,
+                    sit amet consectetur adipisicing elit. Distinctio molestias cumque tempore quod facere dolores ex
+                    tenetur, numquam provident voluptates incidunt, <br>consequatur laborum laboriosam. Harum pariatur
+                    nemo sunt aspernatur quasi <br>laudantium quibusdam ipsum quis voluptatibus error, numquam ipsa
+                    aliquam, <br>molestias debitis deserunt optio nostrum perferendis possimus perspiciatis qui tenetur
+                    dicta?</p>
+            </div>
+        </div>
+    </div>
+    <hr>
 
-  </body>
+    <!-- this section is using table -->
+    <div class="container mb-3">
+        <caption>List of users</caption>
+        <table class="table mb-3">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+
+    <div class="container mb-3">
+        <caption>List of users</caption>
+        <table class="table table-striped mb-3">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    </div>
+</body>
+
 </html>
