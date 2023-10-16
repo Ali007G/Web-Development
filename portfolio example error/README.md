@@ -1,4 +1,4 @@
-**#About Portfolio**
+**#About This Error Portfolio**
 
 1. After html and css learn then i tried to make my portfolio. All the things works well, at the end navbar is not working that means navbar is not closing.
 2. Then lots of search(almost 6 days) found the erorr/problem and solved it.
