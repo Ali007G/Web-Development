@@ -1,1 +1,322 @@
+.body{
+    font-family: 'Open Sans', sans-serif 'Font Awesome';
+}
+.banner-container{
+    background-color: #747e85;
+}
+.navbar-container{
+    top: 0;
+    background-color: #262B37;
+    position: sticky;
+    z-index: 1;
+}
+.banner-column{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #546f83;
+    /* border-style: outset; */
+    /* border-style: inset; */
+    border-style: groove;
+    /* border-width: 5px; */
+    border-width: 5px 10px 10px 10px;
+    border-color: rgb(24, 15, 15) rgb(27, 168, 168) rgb(170, 159, 152) rgb(27, 168, 168)
+}
+.text-first{
+    font-family: 'Young Serif', serif;
+    color: aliceblue;
+    /* text-shadow: 0 0 5px #fc0909; */
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #111129;
+}
+.text-second{
+    font-family: 'Young Serif', serif;
+    color: azure;
+    text-shadow: 0 0 5px #0ce46d, 0 0 5px #020225;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+}
+.nav-link{
+    color: rgb(150, 214, 214);
+    /* font-size: 25px; */
+}
+.about-container{
+    /* background-color: #747e85; */
+    background-color: rgb(105, 112, 175);
+}
+.col-md-3.mb-5.mt-3 img {
+    border: 5px solid black;
+    border-radius: 15px;
+    /* border-style: inset; */
+    border-style: groove;
+    border-color: hsl(0, 0%, 73%);
+}
+  
+.education-container{
+    background-color: #493b3b;
+}
+.skills-container{
+    background-color: #3f2f32d7;
+    /* background-color: #0D3043; */
+    /* background-color: #0C242E; */
+}
+.project-container{
+    /* background-color:  #2BB3DD; */
+    background-color: #38444D;
+}
+.certificate-container{
+    background-color: #493b3b;
+}
+/* education round cirle will be red*/
+.bg-redtype{
+    background-color: #FB8578;
+}
+.bg-redtype:hover{
+    color: black!important;
+}
+/* this is EDUCATION text colour */
+.rededutype-color{
+    color: #dcdce4;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: 'Young Serif', serif;
+    text-shadow: 0 0 5px #08e42c, 0 0 5px #0d2b07;
+}
+/* this is SKILLS text colour */
+.redskitype-color{
+    color: #dcdce4;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: 'Young Serif', serif;
+    text-shadow: 0 0 5px #08e42c, 0 0 5px #0d2b07;
+}
 
+/* this is PROJECT text colour */
+.redprotype-color{
+    color: #dcdce4;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: 'Young Serif', serif;
+    text-shadow: 0 0 8px #08e42c, 0 0 5px #0d2b07;
+}
+/* this is CERTIFICATE text colour */
+.redcertype-color{
+    color: #dcdce4;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: 'Young Serif', serif, 'Font Awesome';
+    text-shadow: 0 0 8px #08e42c, 0 0 5px #0d2b07;
+}
+.allproject-image{
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+.allproject-image:hover{
+    border: 1px solid #221d1d;
+}
+.allproject-image img{
+    width: 100%;
+    height: auto;
+}
+.description{
+    padding: 15px;
+    text-align: center;
+}
+/* education text will be red*/
+.redtype-color{
+    color: #FB8578;
+}
+/* education round all will be affect*/
+.circle-edu{
+    /* background-color: #FB8578; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    box-shadow: 0 0 15px rgba(243, 227, 227, 0.932);
+    background-image: linear-gradient(to bottom, #17246b, #25b3a7);
+    /* background-image: repeating-linear-gradient(45deg, transparent 5px, #fff 5px, #fff 10px, transparent 10px); */
+    animation: fade 3s infinite;
+}
+/* Add this keyframes animation for the circle */
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    15% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    70% {
+        opacity: 0.7;
+    }
+    85% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* @keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+} */
+
+
+.card-body{
+    border-left: 3px solid rgb(245, 77, 11);
+    box-shadow: 0 0 5px rgba(9, 245, 9, 0.5);
+    border-bottom: 6px solid #262B37;
+    /* background-color: lightgrey; */
+    background-image: linear-gradient(to bottom, #f0f1f5, #2e9c3d);
+    /* background-image: linear-gradient(to top, #FB8578, #F77871); */
+}
+  
+
+.form-container{
+    background-color: #474D5D;
+}
+.inner-form{
+    background-color: #80889e;
+}
+.footer{
+    background-color: #2BB3DD;
+}
+.circleIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(253, 253, 253);
+    font-size: 40px;
+    text-align: center;
+    color: #117996;
+}
+.circleIcon:hover{
+    background-color: black;
+}
+
+/* this is ALL Skills section work */
+
+/* .body-skill { */
+    /* font-family: Arial, sans-serif; */
+    /* background-color: #584747; */
+    /* height: 100vh; */
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    padding: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+    background-color: #fff;
+    border: 2px solid #6961af62;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    transition: background-color 0.7s;
+    /* Added transition for background color */
+    box-shadow: 0 0 10px #da0f08e8;
+    border-bottom: 6px solid #6a9b0fe8;
+    /* background-image: linear-gradient(to top, #f0f1f5, #2e9c3d); */
+
+}
+
+.column h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.column:hover {
+    background-color: #c7a6a6;
+    /* Change background color on hover */
+    box-shadow: 0 0 10px rgba(15, 88, 223, 0.9);
+    /* Change box-shadow color on hover */
+}
+
+/* .body-all { */
+    /* font-family: Arial, sans-serif;
+    background-color: #574242; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+    /* margin: 0; */
+
+
+.slider-container {
+    /* width: 500px; */
+    max-width: 70%;
+    overflow: hidden;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center; /* Center vertically */
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    animation: slide 9s linear infinite;
+    white-space: nowrap; /* Prevent slider items from wrapping */
+}
+
+.slide {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #3498db;
+    margin: 10px;
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    color: #fff;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(300px);
+    }
+
+    100% {
+        transform: translateX(-300px);
+    }
+
+}
