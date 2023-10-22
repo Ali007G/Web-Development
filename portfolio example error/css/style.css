@@ -1,0 +1,154 @@
+.body{
+    font-family: 'Open Sans', sans-serif 'Font Awesome';
+}
+.banner-container{
+    background-color: #747e85;
+}
+.navbar-container{
+    top: 0;
+    background-color: #262B37;
+    position: sticky;
+    z-index: 1;
+}
+
+.banner-column{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #546f83;
+    /* border-style: outset; */
+    /* border-style: inset; */
+    border-style: groove;
+    /* border-width: 5px; */
+    border-width: 5px 10px 10px 10px;
+    border-color: rgb(24, 15, 15) rgb(27, 168, 168) rgb(170, 159, 152) rgb(27, 168, 168)
+}
+.text-first{
+    font-family: 'Young Serif', serif;
+    color: aliceblue;
+    /* text-shadow: 0 0 5px #fc0909; */
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #111129;
+}
+.text-second{
+    font-family: 'Young Serif', serif;
+    color: azure;
+    text-shadow: 0 0 5px #0ce46d, 0 0 5px #020225;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+}
+.nav-link{
+    color: rgb(150, 214, 214);
+    /* font-size: 25px; */
+}
+.about-container{
+    /* background-color: #747e85; */
+    background-color: rgb(105, 112, 175);
+}
+.col-md-3.mb-5.mt-3 img {
+    border: 5px solid black;
+    border-radius: 15px;
+    /* border-style: inset; */
+    border-style: groove;
+    border-color: hsl(0, 0%, 73%);
+}
+  
+.education-container{
+    background-color: #493b3b;
+}
+.project-container{
+    /* background-color:  #2BB3DD; */
+    background-color: #38444D;
+}
+.certificate-container{
+    background-color: #493b3b;
+}
+/* education round cirle will be red*/
+.bg-redtype{
+    background-color: #FB8578;
+}
+.bg-redtype:hover{
+    color: black!important;
+}
+/* this is EDUCATION text colour */
+.rededutype-color{
+    color: #dcdce4;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: 'Young Serif', serif;
+    text-shadow: 0 0 5px #08e42c, 0 0 5px #0d2b07;
+}
+/* this is PROJECT text colour */
+.redprotype-color{
+    color: #dcdce4;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: 'Young Serif', serif;
+    text-shadow: 0 0 8px #08e42c, 0 0 5px #0d2b07;
+}
+/* this is CERTIFICATE text colour */
+.redcertype-color{
+    color: #dcdce4;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: 'Young Serif', serif, 'Font Awesome';
+    text-shadow: 0 0 8px #08e42c, 0 0 5px #0d2b07;
+}
+.allproject-image{
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+.allproject-image:hover{
+    border: 1px solid #221d1d;
+}
+.allproject-image img{
+    width: 100%;
+    height: auto;
+}
+.description{
+    padding: 15px;
+    text-align: center;
+}
+/* education text will be red*/
+.redtype-color{
+    color: #FB8578;
+}
+/* education round all will be affect*/
+.circle-edu{
+    /* background-color: #FB8578; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    box-shadow: 0 0 15px rgba(243, 227, 227, 0.932);
+    background-image: linear-gradient(to bottom, #17246b, #25b3a7);
+    /* background-image: repeating-linear-gradient(45deg, transparent 5px, #fff 5px, #fff 10px, transparent 10px); */
+}
+.card-body{
+    border-left: 3px solid rgb(245, 77, 11);
+    box-shadow: 0 0 5px rgba(9, 245, 9, 0.5);
+    border-bottom: 6px solid #262B37;
+    /* background-color: lightgrey; */
+    background-image: linear-gradient(to bottom, #f0f1f5, #2e9c3d);
+    /* background-image: linear-gradient(to top, #FB8578, #F77871); */
+}
+  
+.form-container{
+    background-color: #474D5D;
+}
+.inner-form{
+    background-color: #80889e;
+}
+.footer{
+    background-color: #2BB3DD;
+}
+.circleIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(253, 253, 253);
+    font-size: 40px;
+    text-align: center;
+    color: #117996;
+}
+.circleIcon:hover{
+    background-color: black;
+}
